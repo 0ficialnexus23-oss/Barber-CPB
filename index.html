@@ -1,0 +1,291 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Barber CPB — Cortes, barba y estilo profesional. Reservá tu próxima cita y encontrá tu nuevo estilo.">
+    <meta name="theme-color" content="#111111">
+    <meta property="og:title" content="Barber CPB | Barbería moderna">
+    <meta property="og:description"
+        content="Tu estilo, tu identidad. Cortes, barba y atención profesional en Nagarote.">
+    <meta property="og:type" content="website">
+    <meta property="og:image"
+        content="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&w=1200&q=85">
+    <title>Barber CPB | Barbería moderna</title>
+    <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="site-header" id="top">
+        <nav class="nav container" aria-label="Navegación principal">
+            <a class="brand" href="#inicio" aria-label="Barber CPB, inicio"><span>BARBER</span><b>CPB</b></a>
+            <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-menu"
+                aria-label="Abrir menú">
+                <span></span><span></span><span></span>
+            </button>
+            <div class="nav-menu" id="main-menu">
+                <a href="#inicio">Inicio</a>
+                <a href="#servicios">Servicios</a>
+                <a href="#galeria">Galería</a>
+                <a href="#nosotros">Nosotros</a>
+                <a href="#horarios">Horarios</a>
+                <a href="#ubicacion">Ubicación</a>
+                <a class="nav-cta" href="#reservas">Reservar cita <span aria-hidden="true">↗</span></a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero" id="inicio">
+            <div class="hero-image" role="img" aria-label="Barbero realizando un corte moderno"></div>
+            <div class="hero-shade"></div>
+            <div class="hero-content container reveal">
+                <p class="eyebrow"><span></span> Barbería moderna · Nagarote</p>
+                <h1>BARBER <em>CPB</em></h1>
+                <p class="hero-tagline">Tu estilo, tu identidad.</p>
+                <p class="hero-copy">Descubrí tu próximo estilo. Cortes modernos, clásicos y barbería profesional
+                    pensados para que salgás con la mejor versión de vos.</p>
+                <div class="hero-actions">
+                    <a class="button button-primary" href="#reservas">Reservar cita <span>↗</span></a>
+                    <a class="button button-ghost" href="#servicios">Ver servicios <span>↓</span></a>
+                </div>
+                <div class="hero-note"><strong>01</strong><span></span><small>Tu próxima versión<br>empieza aquí</small>
+                </div>
+            </div>
+        </section>
+
+        <section class="services section" id="servicios">
+            <div class="container">
+                <div class="section-heading reveal">
+                    <div>
+                        <p class="eyebrow dark"><span></span> Lo que hacemos</p>
+                        <h2>Nuestros <em>servicios</em></h2>
+                    </div>
+                    <p>Detalles precisos, productos de calidad y un resultado que se siente tan bien como se ve.</p>
+                </div>
+                <div class="services-grid">
+                    <article class="service-card reveal">
+                        <div class="service-icon">✦</div>
+                        <p class="service-number">01 / 04</p>
+                        <h3>Corte clásico</h3>
+                        <p>Corte limpio y tradicional adaptado a tu estilo.</p>
+                        <div class="service-bottom"><strong>C$150</strong><a href="#reservas"
+                                data-service="Corte clásico">Reservar <span>↗</span></a></div>
+                    </article>
+                    <article class="service-card featured reveal">
+                        <div class="service-icon">◒</div>
+                        <p class="service-number">02 / 04</p>
+                        <h3>Corte + Barba</h3>
+                        <p>Corte de cabello acompañado de arreglo y perfilado de barba.</p>
+                        <div class="service-bottom"><strong>C$220</strong><a href="#reservas"
+                                data-service="Corte + Barba">Reservar <span>↗</span></a></div>
+                    </article>
+                    <article class="service-card reveal">
+                        <div class="service-icon">⌁</div>
+                        <p class="service-number">03 / 04</p>
+                        <h3>Barba</h3>
+                        <p>Perfilado, arreglo y acabado profesional.</p>
+                        <div class="service-bottom"><strong>C$100</strong><a href="#reservas"
+                                data-service="Barba">Reservar <span>↗</span></a></div>
+                    </article>
+                    <article class="service-card reveal">
+                        <div class="service-icon">◇</div>
+                        <p class="service-number">04 / 04</p>
+                        <h3>Corte Premium</h3>
+                        <p>Corte personalizado con acabado detallado.</p>
+                        <div class="service-bottom"><strong>C$250</strong><a href="#reservas"
+                                data-service="Corte Premium">Reservar <span>↗</span></a></div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="gallery section" id="galeria">
+            <div class="container">
+                <div class="section-heading reveal">
+                    <div>
+                        <p class="eyebrow"><span></span> El resultado habla</p>
+                        <h2>Nuestro <em>trabajo</em></h2>
+                    </div><a class="text-link" href="#reservas">Quiero este look <span>↗</span></a>
+                </div>
+                <div class="gallery-grid">
+                    <button class="gallery-item gallery-large reveal" type="button"
+                        data-full="https://images.unsplash.com/photo-1621605815971-fbc98d665033?auto=format&fit=crop&w=1400&q=85"
+                        aria-label="Ver corte fade en tamaño grande"><img
+                            src="https://images.unsplash.com/photo-1621605815971-fbc98d665033?auto=format&fit=crop&w=900&q=80"
+                            alt="Corte fade moderno con textura" loading="lazy"><span>01</span></button>
+                    <button class="gallery-item reveal" type="button"
+                        data-full="https://images.unsplash.com/photo-1521369909029-2afed882baee?auto=format&fit=crop&w=1200&q=85"
+                        aria-label="Ver arreglo de barba en tamaño grande"><img
+                            src="https://images.unsplash.com/photo-1521369909029-2afed882baee?auto=format&fit=crop&w=700&q=80"
+                            alt="Barbero perfilando una barba" loading="lazy"><span>02</span></button>
+                    <button class="gallery-item reveal" type="button"
+                        data-full="https://images.unsplash.com/photo-1512690459411-b9245aed614b?auto=format&fit=crop&w=1200&q=85"
+                        aria-label="Ver corte clásico en tamaño grande"><img
+                            src="https://images.unsplash.com/photo-1512690459411-b9245aed614b?auto=format&fit=crop&w=700&q=80"
+                            alt="Corte clásico masculino con acabado limpio" loading="lazy"><span>03</span></button>
+                    <button class="gallery-item reveal" type="button"
+                        data-full="https://images.unsplash.com/photo-1622286342621-4bd786c2447c?auto=format&fit=crop&w=1200&q=85"
+                        aria-label="Ver herramientas de barbería en tamaño grande"><img
+                            src="https://images.unsplash.com/photo-1622286342621-4bd786c2447c?auto=format&fit=crop&w=700&q=80"
+                            alt="Herramientas profesionales de barbería" loading="lazy"><span>04</span></button>
+                    <button class="gallery-item gallery-wide reveal" type="button"
+                        data-full="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&w=1400&q=85"
+                        aria-label="Ver interior de barbería en tamaño grande"><img
+                            src="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&w=1000&q=80"
+                            alt="Interior de una barbería moderna" loading="lazy"><span>05</span></button>
+                    <button class="gallery-item reveal" type="button"
+                        data-full="https://images.unsplash.com/photo-1562004760-aceed7bb0fe3?auto=format&fit=crop&w=1200&q=85"
+                        aria-label="Ver detalle de corte en tamaño grande"><img
+                            src="https://images.unsplash.com/photo-1562004760-aceed7bb0fe3?auto=format&fit=crop&w=700&q=80"
+                            alt="Detalle de un corte masculino con líneas precisas"
+                            loading="lazy"><span>06</span></button>
+                </div>
+            </div>
+        </section>
+
+        <section class="about section" id="nosotros">
+            <div class="container about-grid">
+                <div class="about-photo reveal"><img
+                        src="https://images.unsplash.com/photo-1585747860715-2ba37e788b70?auto=format&fit=crop&w=1000&q=85"
+                        alt="Sillón y espejo en el interior de Barber CPB" loading="lazy">
+                    <div class="photo-badge"><strong>CPB</strong><span>Desde<br>2020</span></div>
+                </div>
+                <div class="about-content reveal">
+                    <p class="eyebrow dark"><span></span> Nuestra forma de hacerlo</p>
+                    <h2>Más que un corte.<br><em>Es tu estilo.</em></h2>
+                    <p>En Barber CPB creemos que un buen corte no solo cambia tu apariencia, también cambia cómo te
+                        sentís. Nuestro objetivo es ofrecer una experiencia profesional, cómoda y personalizada para
+                        cada cliente.</p>
+                    <div class="values">
+                        <div><strong>01</strong>
+                            <h3>Calidad</h3>
+                            <p>Trabajamos cada detalle.</p>
+                        </div>
+                        <div><strong>02</strong>
+                            <h3>Estilo</h3>
+                            <p>Encontrá el look que te representa.</p>
+                        </div>
+                        <div><strong>03</strong>
+                            <h3>Atención</h3>
+                            <p>Una experiencia pensada para vos.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="booking section" id="reservas">
+            <div class="container booking-layout">
+                <div class="booking-intro reveal">
+                    <p class="eyebrow"><span></span> Tu momento</p>
+                    <h2>Reservá tu<br><em>próxima cita.</em></h2>
+                    <p>Elegí el servicio, el día y el horario que mejor te quedan. Te confirmamos por WhatsApp.</p>
+                    <div class="booking-detail"><span>⌁</span>
+                        <div><strong>Atención personalizada</strong><small>Respondemos de lunes a sábado</small></div>
+                    </div>
+                </div>
+                <form class="booking-form reveal" id="booking-form" novalidate>
+                    <div class="form-row"><label>Tu nombre<input type="text" id="name" name="name"
+                                placeholder="Ej. Carlos Mendoza" autocomplete="name"
+                                required></label><label>Teléfono<input type="tel" id="phone" name="phone"
+                                placeholder="8888 8888" autocomplete="tel" required></label></div>
+                    <label>Elegí tu servicio<select id="service" name="service" required>
+                            <option value="" selected disabled>Seleccioná una opción</option>
+                            <option>Corte clásico — C$150</option>
+                            <option>Corte + Barba — C$220</option>
+                            <option>Barba — C$100</option>
+                            <option>Corte Premium — C$250</option>
+                        </select></label>
+                    <div class="form-row"><label>Fecha<input type="date" id="date" name="date"
+                                required></label><label>Hora<select id="time" name="time" required>
+                                <option value="" selected disabled>Seleccioná</option>
+                                <option>9:00 AM</option>
+                                <option>10:00 AM</option>
+                                <option>11:00 AM</option>
+                                <option>1:00 PM</option>
+                                <option>2:00 PM</option>
+                                <option>3:00 PM</option>
+                                <option>4:00 PM</option>
+                                <option>5:00 PM</option>
+                                <option>6:00 PM</option>
+                            </select></label></div>
+                    <label>Mensaje <span class="optional">opcional</span><textarea id="message" name="message" rows="3"
+                            placeholder="¿Algo que debamos saber?"></textarea></label>
+                    <button class="button button-primary full-width" type="submit">Confirmar por WhatsApp
+                        <span>↗</span></button>
+                    <p class="form-note">Al confirmar, se abrirá WhatsApp con tu solicitud lista para enviar.</p>
+                    <p class="form-status" id="form-status" role="status"></p>
+                </form>
+            </div>
+        </section>
+
+        <section class="visit section" id="horarios">
+            <div class="container visit-grid">
+                <div class="hours reveal">
+                    <p class="eyebrow dark"><span></span> Pasá a visitarnos</p>
+                    <h2>Horarios de <em>atención</em></h2>
+                    <div class="open-status"><span></span> Abierto hoy · Reservá tu espacio</div>
+                    <div class="hours-list">
+                        <div><span>Lunes — Sábado</span><strong>9:00 AM — 7:00 PM</strong></div>
+                        <div><span>Domingo</span><strong class="muted">Cerrado</strong></div>
+                    </div>
+                </div>
+                <div class="location-card reveal" id="ubicacion">
+                    <div class="location-top">
+                        <p class="eyebrow"><span></span> Dónde encontrarnos</p><span class="map-pin">⌖</span>
+                    </div>
+                    <h2>Nagarote,<br><em>León, Nicaragua.</em></h2>
+                    <p>Un espacio pensado para que te desconectés, te cuidés y salgás con un estilo que se sienta tuyo.
+                    </p><a class="button button-light"
+                        href="https://www.google.com/maps/search/?api=1&query=Nagarote%2C+Leon%2C+Nicaragua"
+                        target="_blank" rel="noopener">Abrir en Google Maps <span>↗</span></a>
+                    <div class="socials"><a href="https://wa.me/50588888888" target="_blank" rel="noopener"
+                            aria-label="WhatsApp">WhatsApp</a><a href="https://www.instagram.com/" target="_blank"
+                            rel="noopener" aria-label="Instagram">Instagram</a><a href="https://www.facebook.com/"
+                            target="_blank" rel="noopener" aria-label="Facebook">Facebook</a></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta">
+            <div class="container cta-inner reveal">
+                <p class="eyebrow"><span></span> Tu próximo look te espera</p>
+                <h2>¿Listo para cambiar<br>de <em>estilo?</em></h2>
+                <p>Reservá tu cita en Barber CPB.</p><a class="button button-primary" href="#reservas">Reservar ahora
+                    <span>↗</span></a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-top">
+            <div><a class="brand footer-brand" href="#inicio"><span>BARBER</span><b>CPB</b></a>
+                <p>Tu estilo, tu identidad.</p>
+            </div>
+            <div class="footer-links"><a href="#inicio">Inicio</a><a href="#servicios">Servicios</a><a
+                    href="#galeria">Galería</a><a href="#nosotros">Nosotros</a><a href="#reservas">Reservas</a><a
+                    href="#ubicacion">Ubicación</a></div>
+            <div class="footer-social"><a href="https://www.instagram.com/" target="_blank" rel="noopener">IG</a><a
+                    href="https://wa.me/50588888888" target="_blank" rel="noopener">WA</a><a
+                    href="https://www.facebook.com/" target="_blank" rel="noopener">FB</a></div>
+        </div>
+        <div class="container footer-bottom"><span>© 2026 Barber CPB. Todos los derechos
+                reservados.</span><span>Nagarote, León · Nicaragua</span></div>
+    </footer>
+
+    <div class="lightbox" id="lightbox" aria-hidden="true"><button class="lightbox-close" type="button"
+            aria-label="Cerrar imagen">×</button><img id="lightbox-image" src="" alt=""></div>
+    <a class="back-to-top" href="#top" aria-label="Volver arriba">↑</a>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
